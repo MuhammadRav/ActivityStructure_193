@@ -40,7 +40,7 @@ int main()
 
 	for (int i = 0; i < 3; i++)
 	{
-		cout << "\nNim : " << mhs[i].nim;
+		cout << "\n\nNim : " << mhs[i].nim;
 		cout << "\nNama : " << mhs[i].nama;
 		cout << "\nDesa : " << mhs[i].alamat.desa;
 		cout << "\nKota : " << mhs[i].alamat.kota;
