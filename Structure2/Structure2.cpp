@@ -25,11 +25,17 @@ int main()
 	cin >> mhs.nim;
 	cout << "Masukkan nama : ";
 	cin >> mhs.nama;
-	cout << "Alamat : ";
+	cout << "Alamat : " << endl;
 	cout << "\tNama desa : ";
 	cin >> mhs.alamat.desa;
 	cout << "\tNama kota : ";
 	cin >> mhs.alamat.kota;
 	cout << "Masukkan umur : ";
 	cin >> mhs.umur;
+
+	cout << "\nNim : " << mhs.nim;
+	cout << "\nNama : " << mhs.nama;
+	cout << "\nDesa : " << mhs.alamat.desa;
+	cout << "\nKota : " << mhs.alamat.kota;
+
 }
